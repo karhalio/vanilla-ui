@@ -3,7 +3,7 @@ class ThemeManager {
   constructor(options = {}) {
     this.STORAGE_KEY = options.storageKey || 'theme';
     this.themeToggle = document.getElementById(options.toggleId || 'theme-toggle');
-    this.theme = this.getInitialTheme(); // 'light' | 'dark'
+    this.theme = this.getInitialTheme(); 
     this.init();
   }
 
